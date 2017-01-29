@@ -1,27 +1,257 @@
 <!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html class="no-js" lang="en">
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bakrey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+    <header class="navbar navbar-fixed">
+        <div class="container">
+            <div class="navbar-brand">
+                <h1 class="brand">Gustoso</h1>
+            </div>
+            <div class="navbar-nav">
+                <nav>
+                    <ul>
+                        <li><a href="#">welcome</a></li>
+                        <li><a href="#">menu</a></li>
+                        <li><a href="#">reservations</a></li>
+                        <li><a href="#">news</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="navbar-social">
+                <ul>
+                    <li><a href="#">Twiter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="content">
+        <div class="container">
+            <h1>Pastry with love</h1>
+            <div class="dashes"></div>
+            <p>We're bringing you fresh ingredients every day in ways you can't resist</p>
+            <button type="button" class="btn btn-transparent">our menu</button>
+        </div>
+        <div class="extra-bread"></div>
+    </section>
+    <section class="blog">
+        <div class="container">
+            <div class="left-side">
+                <article>
+                    <header>
+                        <hgroup>
+                            <h3>Art of cakes</h2>
+                                <h5>we create obsesive memories</h4>
+                        </hgroup>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ab laudantium dicta a unde ratione facilis
+                        sed quos omnis, enim eum repellendus, nam non ipsa, consectetur quaerat eligendi voluptatem iure!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ratione a veritatis, in distinctio
+                        dicta quidem officiis aliquid doloremque error optio nulla, voluptatem cum mollitia animi! Velit
+                        natus dignissimos necessitatibus.</p>
+                    <footer>
+                        <h4>Chef Cook</h4>
+                        <a href="#" rel="author">
+                            <span class="name-left">Benito</span>
+                            <span class="avatar circle">
+                                <img src="img/AV.jpg" alt="Benito Gaspare">
+                            </span>
+                            <span class="name-right">Gaspare</span>
+                        </a>
+                        <cite>Lorem ipsum aliquid sub int elequm</cite>
+                    </footer>
+                </article>
+            </div>
+            <div class="right-side">
+                <div class="gallery">
+                    <a href="#" class="gallery-item">
+                        <figure>
+                            <img src="img/taste_1.jpg" alt="taste so good">
+                            <figcaption>name</figcaption>
+                        </figure>
+                    </a>
+                    <a href="#" class="gallery-item">
+                        <figure>
+                            <img src="img/taste_2.jpg" alt="taste so good">
+                            <figcaption>name</figcaption>
+                        </figure>
+                    </a>
+                    <a href="#" class="gallery-item">
+                        <figure>
+                            <img src="img/taste_3.jpg" alt="taste so good">
+                            <figcaption>name</figcaption>
+                        </figure>
+                    </a>
+                    <a href="#" class="gallery-item">
+                        <figure>
+                            <img src="img/taste_4.jpg" alt="taste so good">
+                            <figcaption>name</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fast-recipe">
+        <article>
+            <figure>
+                <img src="img/pancakres.jpg" alt="Fast pancakes">
+            </figure>
+            <header>
+                <hgroup>
+                    <h3>Art of cakes</h2>
+                        <h5>we create obsesive memories</h4>
+                </hgroup>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ab laudantium dicta a unde ratione facilis sed
+                quos omnis, nulla, voluptatem cum mollitia animi! Velit natus dignissimos necessitatibus.</p>
+            <aside class="similar-recipe">
+                <div class="carousel">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/slide_1.jpg" alt="similar pancakes"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/slide_2.jpg" alt="similar pancakes"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/slide_3.jpg" alt="similar pancakes"></a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="timer"> <span>ready in</span><span>40</span><span>mins</span>
+            </div>
+        </article>
+    </section>
+    <section class="breakfast">
+        <div class="container">
+            <div class="left-side">
+                <header>
+                    <hgroup>
+                        <h3>Breakfast/h2>
+                            <h5>we create obsesive memories</h4>
+                    </hgroup>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ab laudantium dicta a unde ratione facilis
+                    sed
+                </p>
+                <ul class="breakfast-list">
+                    <li class="breakfast-item">
+                        <h6 class="breakfast-item-name">Full breakfast</h6>
+                        <p class="breakfast-item-igredients">lorem, upsum, adispicing, elit, illum</p>
+                        <span class="cost">12.49</span>
+                    </li>
+                    <li class="breakfast-item">
+                        <h6 class="breakfast-item-name">Full breakfast</h6>
+                        <p class="breakfast-item-igredients">lorem, upsum, adispicing, elit, illum</p>
+                        <span class="cost">12.49</span>
+                    </li>
+                    <li class="breakfast-item">
+                        <h6 class="breakfast-item-name">Full breakfast</h6>
+                        <p class="breakfast-item-igredients">lorem, upsum, adispicing, elit, illum</p>
+                        <span class="cost">12.49</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-side">
+                <div class="old-recipe">
+                    <div class="old-time">
+                        <span class="left">1899</span>
+                        <span class="right">1924</span>
+                    </div>
+                    <h5>Your morning Escape with Flair</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, nihil nemo nesciunt repellendus vel,
+                        libero ipsum, illo architecto cum placeat rem doloremque inventore debitis quia, dicta tenetur porro
+                        laudantium ex.</p>
+                    <button type="button" class="btn">read</button>
+                </div>
+            </div>
+        </div>
+        <div class="extra-grain"></div>
+    </section>
+    <section class="research">
+        <div class="container">
+            <header>
+                <hgroup>
+                    <h3>Breakfast/h2>
+                        <h5>we create obsesive memories</h4>
+                </hgroup>
+            </header>
+            <div class="left-side">
+                <ul class="ingredient-list">
+                    <li class="ingredient-item">
+                        <figure>
+                            <img src="img/left_side_1.jpg" alt="ingredietnrs">
+                        </figure>
+                        <h6 class="ingredient-item-name">Full breakfast</h6>
+                        <p class="ingredient-item-description">lorem, upsum, adispicing, elit, illum</p>
+                    </li>
+                    <li class="ingredient-item">
+                        <figure>
+                            <img src="img/left_side_2.jpg" alt="ingredietnrs">
+                        </figure>
+                        <h6 class="ingredient-item-name">Full breakfast</h6>
+                        <p class="ingredient-item-description">lorem, upsum, adispicing, elit, illum</p>
+                    </li>
+                    <li class="ingredient-item">
+                        <figure>
+                            <img src="img/left_side_3.jpg" alt="ingredietnrs">
+                        </figure>
+                        <h6 class="ingredient-item-name">Full breakfast</h6>
+                        <p class="ingredient-item-description">lorem, upsum, adispicing, elit, illum</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-side">
+            <figure>
+                <img src="img/main-recipe.jpg" alt="main recipe">
+            </figure>
+            <div class="right-boxs">
+                <div class="box">15</div>
+                <div class="box">35</div>
+                <div class="box">50</div>
+            </div>
+            <button type="button" class="btn">full recipe</button>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <nav id="footer-nav">
+                <ul>
+                    <li><a href="#">our menu</a></li>
+                    <li><a href="#">gallery</a></li>
+                    <li><a href="#">culture</a></li>
+                    <li class="brand"><a href="#">questeso</a></li>
+                    <li><a href="#">events</a></li>
+                    <li><a href="#">catering</a></li>
+                    <li><a href="#">visitors</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/main.js"></script>
+</body>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <script src="js/main.js"></script>
-    </body>
 </html>
