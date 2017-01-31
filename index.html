@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Bakrey</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,700|Lovers+Quarrel|Playfair+Display:400,700|Roboto+Condensed"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -19,64 +21,63 @@
         <![endif]-->
 
     <header class="navbar navbar-fixed">
-        <div class="container">
-            <div class="navbar-brand">
-                <h1 class="brand">Gustoso</h1>
-            </div>
-            <div class="navbar-nav">
-                <nav>
-                    <ul>
-                        <li><a href="#">welcome</a></li>
-                        <li><a href="#">menu</a></li>
-                        <li><a href="#">reservations</a></li>
-                        <li><a href="#">news</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="navbar-social">
+        <div class="navbar-brand">
+            <h1 class="brand">Gustoso</h1>
+        </div>
+        <div class="navbar-nav">
+            <nav>
                 <ul>
-                    <li><a href="#">Twiter</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">welcome</a></li>
+                    <li><a href="#">menu</a></li>
+                    <li><a href="#">reservations</a></li>
+                    <li><a href="#">news</a></li>
+                    <li><a href="#">contact</a></li>
                 </ul>
-            </div>
+            </nav>
+        </div>
+        <div class="navbar-social">
+            <ul>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
         </div>
     </header>
-    <section id="content">
-        <div class="container">
+    <section class="content">
+        <div class="vh-center">
             <h1>Pastry with love</h1>
-            <div class="dashes"></div>
+            <div class="dashes">
+                <img src="img/dashline.png" alt="">
+            </div>
             <p>We're bringing you fresh ingredients every day in ways you can't resist</p>
-            <button type="button" class="btn btn-transparent">our menu</button>
+            <a href="#breakfast"><button type="button" class="btn btn-transparent">our menu</button></a>
         </div>
-        <div class="extra-bread"></div>
+        <a href="#blog" class="extra-bread"></a>
     </section>
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="container">
             <div class="left-side">
                 <article>
                     <header>
                         <hgroup>
-                            <h3>Art of cakes</h2>
-                                <h5>we create obsesive memories</h4>
+                            <h3>Art of cakes</h3>
+                            <h5>we create obsesive memories</h5>
                         </hgroup>
                     </header>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ab laudantium dicta a unde ratione facilis
                         sed quos omnis, enim eum repellendus, nam non ipsa, consectetur quaerat eligendi voluptatem iure!
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ratione a veritatis, in distinctio
-                        dicta quidem officiis aliquid doloremque error optio nulla, voluptatem cum mollitia animi! Velit
-                        natus dignissimos necessitatibus.</p>
+                        dicta quidem officiis aliquid doloremque error optio nulla, voluptatem cum mollitia animi!</p>
                     <footer>
-                        <h4>Chef Cook</h4>
-                        <a href="#" rel="author">
+                        <span class="chef">Chef Cook</span>
+                        <a href="#" rel="author" class="avatar clearfix">
                             <span class="name-left">Benito</span>
-                            <span class="avatar circle">
-                                <img src="img/AV.jpg" alt="Benito Gaspare">
+                            <span class="circle">
+                                <img src="img/AV.jpg" alt="Benito Gaspare" class="img-responsive">
                             </span>
                             <span class="name-right">Gaspare</span>
                         </a>
-                        <cite>Lorem ipsum aliquid sub int elequm</cite>
+                        <cite>~ Lorem ipsum aliquid sub int elequm ~</cite>
                     </footer>
                 </article>
             </div>
@@ -84,26 +85,26 @@
                 <div class="gallery">
                     <a href="#" class="gallery-item">
                         <figure>
-                            <img src="img/taste_1.jpg" alt="taste so good">
-                            <figcaption>name</figcaption>
+                            <img src="img/taste_1.jpg" class="img-responsive" alt="taste so good">
+                            <figcaption class="vh-center">name</figcaption>
                         </figure>
                     </a>
                     <a href="#" class="gallery-item">
                         <figure>
-                            <img src="img/taste_2.jpg" alt="taste so good">
-                            <figcaption>name</figcaption>
+                            <img src="img/taste_2.jpg" class="img-responsive" alt="taste so good">
+                            <figcaption class="vh-center">name</figcaption>
                         </figure>
                     </a>
                     <a href="#" class="gallery-item">
                         <figure>
-                            <img src="img/taste_3.jpg" alt="taste so good">
-                            <figcaption>name</figcaption>
+                            <img src="img/taste_3.jpg" class="img-responsive" alt="taste so good">
+                            <figcaption class="vh-center">name</figcaption>
                         </figure>
                     </a>
                     <a href="#" class="gallery-item">
                         <figure>
-                            <img src="img/taste_4.jpg" alt="taste so good">
-                            <figcaption>name</figcaption>
+                            <img src="img/taste_4.jpg" class="img-responsive" alt="taste so good">
+                            <figcaption class="vh-center">name</figcaption>
                         </figure>
                     </a>
                 </div>
@@ -111,38 +112,57 @@
         </div>
     </section>
     <section class="fast-recipe">
-        <article>
-            <figure>
-                <img src="img/pancakres.jpg" alt="Fast pancakes">
-            </figure>
-            <header>
-                <hgroup>
-                    <h3>Art of cakes</h2>
-                        <h5>we create obsesive memories</h4>
-                </hgroup>
-            </header>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ab laudantium dicta a unde ratione facilis sed
-                quos omnis, nulla, voluptatem cum mollitia animi! Velit natus dignissimos necessitatibus.</p>
-            <aside class="similar-recipe">
-                <div class="carousel">
-                    <ul>
-                        <li>
-                            <a href="#"><img src="img/slide_1.jpg" alt="similar pancakes"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="img/slide_2.jpg" alt="similar pancakes"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="img/slide_3.jpg" alt="similar pancakes"></a>
-                        </li>
-                    </ul>
+        <div class="container">
+
+            <article class="recipe">
+                <div class="recipe-img-bg">
                 </div>
-            </aside>
-            <div class="timer"> <span>ready in</span><span>40</span><span>mins</span>
-            </div>
-        </article>
+                <div class="recipe-content">
+
+                    <header>
+                        <hgroup>
+                            <h3>Art of cakes</h3>
+                            <h5>we create obsesive memories</h5>
+                        </hgroup>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ab laudantium dicta a unde ratione facilis
+                        sed quos omnis, nulla, voluptatem cum mollitia animi! Velit natus dignissimos necessitatibus.</p>
+                    <aside class="similar-recipe">
+                        <div class="carousel">
+                            <a href="#" class="carousel-left">
+                                <button type="button" class="btn-carousel"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+</button>
+                            </a>
+                            <div class="siema">
+                                <div class="carousel-item">
+                                    <a href="#" class="circle"><img src="img/slide_1.jpg" class="img-responsive" alt="similar pancakes"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" class="circle"><img src="img/slide_2.jpg" class="img-responsive" alt="similar pancakes"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" class="circle"><img src="img/slide_3.jpg" class="img-responsive" alt="similar pancakes"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" class="circle"><img src="img/slide_1.jpg" class="img-responsive" alt="similar pancakes"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" class="circle"><img src="img/slide_2.jpg" class="img-responsive" alt="similar pancakes"></a>
+                                </div>
+                            </div>
+                            <a href="#" class="carousel-right">
+                                <button type="button" class="btn-carousel"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+</button>
+                            </a>
+                        </div>
+                    </aside>
+                    <div class="timer"> <span class="ready">ready in</span><span class="time">40</span><span class="minutes">mins</span>
+                    </div>
+                </div>
+            </article>
+        </div>
     </section>
-    <section class="breakfast">
+    <section class="breakfast" id="breakfast">
         <div class="container">
             <div class="left-side">
                 <header>
@@ -200,21 +220,21 @@
                 <ul class="ingredient-list">
                     <li class="ingredient-item">
                         <figure>
-                            <img src="img/left_side_1.jpg" alt="ingredietnrs">
+                            <img src="img/left_side_1.jpg" class="img-responsive" alt="ingredietnrs">
                         </figure>
                         <h6 class="ingredient-item-name">Full breakfast</h6>
                         <p class="ingredient-item-description">lorem, upsum, adispicing, elit, illum</p>
                     </li>
                     <li class="ingredient-item">
                         <figure>
-                            <img src="img/left_side_2.jpg" alt="ingredietnrs">
+                            <img src="img/left_side_2.jpg" class="img-responsive" alt="ingredietnrs">
                         </figure>
                         <h6 class="ingredient-item-name">Full breakfast</h6>
                         <p class="ingredient-item-description">lorem, upsum, adispicing, elit, illum</p>
                     </li>
                     <li class="ingredient-item">
                         <figure>
-                            <img src="img/left_side_3.jpg" alt="ingredietnrs">
+                            <img src="img/left_side_3.jpg" class="img-responsive" alt="ingredietnrs">
                         </figure>
                         <h6 class="ingredient-item-name">Full breakfast</h6>
                         <p class="ingredient-item-description">lorem, upsum, adispicing, elit, illum</p>
@@ -224,7 +244,7 @@
         </div>
         <div class="right-side">
             <figure>
-                <img src="img/main-recipe.jpg" alt="main recipe">
+                <img src="img/main-recipe.jpg" class="img-responsive" alt="main recipe">
             </figure>
             <div class="right-boxs">
                 <div class="box">15</div>
@@ -251,6 +271,7 @@
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/siema.js"></script>
 <script src="js/main.js"></script>
 </body>
 
