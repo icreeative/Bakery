@@ -4,7 +4,8 @@ $(function() {
     loop: true,
     duration: 500,
     draggable: false,
-    perPage: 3
+    perPage: 3,
+    easing: 'ease-in'
   });
   $('.carousel-left').on('click', ()=>{
     siema.prev();

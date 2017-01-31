@@ -544,6 +544,14 @@ cite{
     position: relative;
 }
 
+.recipe-img-bg{
+    z-index: 2;
+    border-width: 15px;
+    box-shadow: 10px 0px 15px rgba(0,0,0,0.3);
+    border-style: solid;
+
+}
+
 .recipe .recipe-img-bg{
     flex-basis: 30%;
     background: url('../img/pancakres.jpg') no-repeat center center;
@@ -633,4 +641,226 @@ cite{
 .minutes{
     color: #a47d5e;
     font-size: 1.3rem;
+}
+
+/*breakfast*/
+
+.breakfast{
+    background: url('../img/bg_3.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.breakfast h3{
+    color: #efefef;
+}
+.breakfast h5{
+    color: #c9b176;
+}
+.breakfast .container{
+    display: flex;
+    width: 60%;
+}
+
+.breakfast-list{
+    margin-top: 60px;
+}
+
+.breakfast-item{
+    margin-top: 30px;
+    display: block
+}
+
+.breakfast-item h6{
+    font-family: "Alegreya", serif;
+    font-size: 2rem;
+}
+
+.breakfast-item p{
+    font-family: "Roboto Condensed", serif;
+    font-size: 1.3rem;
+    color: #cfcfcf;
+    margin: 0;
+}
+
+.cost{
+    font-family: "Alegreya", serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #c9b176;
+}
+
+.breakfast .container > * {
+    flex: 1;
+}
+
+.breakfast .right-side{
+    background: url('../img/recipe_in_2.png') no-repeat bottom right, #fff;
+    padding: 6px;
+
+}
+
+.old-recipe{
+    position: relative;
+    color: #56534c;
+    height: 100%;
+    border: 2px dashed #a47d5e;
+}
+
+.old-recipe h5{
+    font-size: 2rem;
+    margin: 60px 0 40px 0;
+    letter-spacing: 2px;
+    line-height: 2rem;
+}
+.max{
+    width: 90%;
+}
+
+.old-recipe p{
+    font-family: "Roboto Condensed", serif;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    line-height: 1.8rem;
+}
+
+.btn-read{
+    font-family: "Alegreya" , serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 10px 50px;
+    color: #a47d5e;
+    background: none;
+    border: 1px solid #a47d5e;
+}
+
+.old-time{
+    font-family: "Alegreya", serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #a47d5e;
+}
+
+/*research */
+.research{
+    text-align: center;
+    background: #f3f1e9;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.research .right-side{
+    position: relative;
+    flex: 1 0 50%;
+}
+
+.research .left-side{
+    flex: 1 0 50%;
+}
+
+.ingredient-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Alegreya", serif;
+    margin-bottom: 40px;
+    padding: 0 40px
+}
+
+.ingredient-item h6{
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #a47d5e; 
+}
+
+.ingredient-item p{
+    margin: 0;
+    color: #56534c;
+    font-size: 1.3rem;
+}
+
+.research .right-side figure{
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.btn-full-recipe{
+    position: absolute;
+    bottom: -15px;
+    left: -30px;
+    color: #a47d5e;
+    font-family: "Alegreya", serif;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.right-boxs{
+    position: absolute;
+    top: -5%; 
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+font-family: "Alegreya", serif;
+    font-weight: 700;
+    height: 110%;
+}
+
+.box{
+    text-align: center;
+    border: 1px dashed #c9b176;
+    width: 150px;
+    flex: 1;
+    margin: 1px;
+    background: #fff;
+    opacity: 0.9;
+    padding: 30px 0;
+}
+
+.timer{
+    background: url('../img/ready_in.jpg') no-repeat center center, #fff;
+    background-size: cover;
+}
+
+.main-footer{
+    background: #f3f1e9;
+    padding: 30px;
+    font-family: "Alegrey", serif;
+    font-size: 1.2rem;
+}
+
+#footer-nav ul{
+    display: flex;
+border-width: 1px 0;
+ width: 60%;
+ margin: 0 auto;
+ border-style: solid;
+ justify-items: stretch;
+ border-color: #afafaf;
+}
+
+.main-footer li {
+    text-align: center;
+    padding: 10px 0;
+    flex: 1;
+}
+
+.main-footer li a {
+    color: #333;
+}
+
+.main-footer .brand{
+   font-size: 3rem;
+   line-height: 1rem;
+   background: #f3f1e9;
+font-family: 'Lovers Quarrel', cursive;:
+box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+color: #a47d5e;
 }
